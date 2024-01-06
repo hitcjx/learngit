@@ -1,0 +1,20 @@
+#初始化一个Git仓库：git init //在此之前先用cd,pwd定位目录
+
+#添加文件到Git仓库：
+    1.git add <file> //可多次使用，添加多个文件; （将内容和修改都放入暂存区）
+    2.git commit -m <message>  （从暂存区移入分支）
+
+#掌握工作区的状态：git status
+
+#如果文件被修改过，查看修改内容：git diff
+
+#显示从最近到最远的提交日志：git log
+    注：加上 --pretty=oneline 简化信息
+
+#回退版本：git reset --hard (版本)
+    当前版本：HEAD   上一个版本：HEAD^   上100个版本：HEAD～100
+    回到head ：找到head的版本号
+
+#查看每一次命令：git reflog //可以用来查看版本号
+
+#
