@@ -31,5 +31,5 @@
 
 #查看远程库信息：git remote -v
 
-#删除远程库：git remote tm name//如:origin //实际上只是删除绑定关系。
+#删除远程库：git remote rm name//如:origin //实际上只是删除绑定关系。
 
