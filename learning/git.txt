@@ -21,7 +21,15 @@
 
 #撤销add之后commit之前的修改： git reset HEAD file
 
-#删除一个文件：git rm , 然后要commit
-    恢复：git checkout -- file
+#工作区删除一个文件后：
+    1.git rm , 然后要commit，则从库文件里面也删除
+    2.恢复：git checkout -- file
 
+#关联一个远程库：git remote add name(库名) git@github.com:hitcjx/文件名.git
+
+#本地提交后，将本地最新修改推送至github：git push origin master
+
+#查看远程库信息：git remote -v
+
+#删除远程库：git remote tm name//如:origin //实际上只是删除绑定关系。
 
