@@ -33,3 +33,7 @@
 
 #删除远程库：git remote rm name//如:origin //实际上只是删除绑定关系。
 
+#从github上克隆内容到本地：git clone 地址(htttps/ssh)
+
+
+
