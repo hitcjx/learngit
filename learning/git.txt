@@ -27,7 +27,7 @@
 
 #关联一个远程库：git remote add name(库名) git@github.com:hitcjx/文件名.git
 
-#本地提交后，将本地最新修改推送至github：git push origin master
+#本地提交后，将本地最新修改推送至github：git push origin main
 
 #查看远程库信息：git remote -v
 
@@ -35,5 +35,20 @@
 
 #从github上克隆内容到本地：git clone 地址(htttps/ssh)
 
+#创建分支：git checkout -b dev
+    相当于：git branch dev
+           git checkout dev
 
+#查看当前分支：git branch
+
+#切换分支：git checkout main
+
+#将dev分支合并到main上，即合并指定分支到当前分支：git merge dev
+
+#删除分支：git branch -d dev
+
+#一种新的命令
+    1.创建并切换到新的分支：git switch -c dev
+    2.切换到已有分支：git switch main
+    
 
