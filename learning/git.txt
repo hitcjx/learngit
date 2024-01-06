@@ -17,4 +17,11 @@
 
 #查看每一次命令：git reflog //可以用来查看版本号
 
-#
+#撤销add之前（工作区）的修改：git checkout -- file
+
+#撤销add之后commit之前的修改： git reset HEAD file
+
+#删除一个文件：git rm , 然后要commit
+    恢复：git checkout -- file
+
+
